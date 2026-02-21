@@ -4,7 +4,7 @@ import {ChevronDown} from 'lucide-react'
 const Testimonials = () => {
   return (
     <div className="inner-testimonals">
-      <h1>My Development Process</h1>
+      <h1>Development Process</h1>
       <ul>
         <li>Plan Layout — Structure UI using Grid & Flexbox</li>
         <li>Build Components — React reusable components</li>

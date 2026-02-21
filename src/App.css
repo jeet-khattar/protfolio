@@ -46,6 +46,9 @@ html{
   padding: 40px 25px 0px;
   border-radius: 10px;
 }
+.intro:hover{
+  outline: 1px solid rgb(255, 255, 255);
+}
 .intro h1 {
   color: var(--text-primary);
   margin-bottom: 10px;
@@ -78,6 +81,9 @@ html{
   border-radius: 10px;
   padding: 20px;
 }
+.project:hover{
+  outline: 1px solid rgb(255, 255, 255);
+}
 .inner-project{
   height: 100%;
 }
@@ -95,11 +101,11 @@ html{
   background-color: var(--ul-bgc);
   height: 80%;
   border-radius: var(--border-raduius-ul);
+  padding-left: 10px;
 }
 .project ul li {
   font-size: 18px;
-  margin-left: 20px;
-  
+  list-style-type: none;
 }
 .project ul li a{
   text-decoration: none;
@@ -125,6 +131,9 @@ html{
   height: 300px;
   border-radius: 10px;
 }
+.service:hover{
+  outline: 1px solid rgb(255, 255, 255);
+}
 .inner-services {
   height: 100%;
 }
@@ -138,6 +147,7 @@ html{
   background-color: var(--ul-bgc);
   height: 80%;
   border-radius: var(--border-raduius-ul);
+  padding-left: 10px;
 }
 .service ul li {
   font-size: 18px;
@@ -153,12 +163,16 @@ html{
   padding: 20px;
   border-radius: 10px;
 }
+.about:hover{
+  outline: 1px solid rgb(255, 255, 255);
+}
 .inner-about{
   height: 100%;
 }
 .about h1 {
   color: var(--text-primary);
 }
+
 .about ul {
   display: flex;
   flex-direction: column;
@@ -166,6 +180,7 @@ html{
   background-color: var(--ul-bgc);
   border-radius: var(--border-raduius-ul);
   height: 80%;
+  padding-left: 10px;
 }
 .about ul li {
   font-size: 18px;
@@ -190,6 +205,9 @@ html{
   height: 300px;
   padding: 20px;
   border-radius: 10px;
+}
+.testimonials:hover{
+ outline: 1px solid rgb(255, 255, 255);
 }
 .inner-testimonals {
   height: 100%;
@@ -230,6 +248,9 @@ html{
   border-radius: 10px;
   height: 250px;
 }
+.contactme:hover{
+  outline: 1px solid rgb(255, 255, 255);
+}
 .inner-contact {
   height: 100%;
 }
@@ -263,6 +284,7 @@ html{
   
 
 } */
+ 
 .inner-social {
   height: 100%;
   width: 100%;
@@ -270,6 +292,7 @@ html{
   justify-content: space-between;
   gap: 10px;
 }
+
  .inner-social a{
  
   background-color: var(--background-color);
@@ -280,6 +303,9 @@ html{
   align-items: center;
   height: 100%;
   text-decoration: none;
+}
+.inner-social a:hover{
+  outline: 1px solid rgb(255, 255, 255);
 }
  .inner-social a .linkedin .icon{
   font-size: 50px;
@@ -317,7 +343,7 @@ html{
     "social";
   }
   .intro{
-    height: 210px;
+    height: 230px;
   }
 .intro h1 {
   color: var(--text-primary);
@@ -402,7 +428,9 @@ html{
   font-size: 18px;
   margin: 0;
 }
-
+.testimonials{
+  height: 340px;
+}
 .testimonials ul li {
   font-size: 16px;
   list-style-type: none;
@@ -530,6 +558,9 @@ height: 100px;
   color: var(--text-secondry);
   font-size: 16px;
 }
+.about{
+  height: 390px;
+}
 .about ul li {
   font-size: 16px;
   list-style-type: none;
@@ -545,7 +576,12 @@ height: 100px;
   font-size: 18px;
   margin: 0;
 }
-
+.testimonials{
+  height: 390px;
+}
+.testimonials ul{
+  height: 75%;
+}
 .testimonials ul li {
   font-size: 16px;
   list-style-type: none;
@@ -673,6 +709,12 @@ height: 100%;
   color: var(--text-secondry);
   font-size: 20px;
 }
+.about{
+  height: 390px;
+}
+.about ul {
+  height: 85%;
+}
 .about ul li {
   font-size: 20px;
   list-style-type: none;
@@ -687,6 +729,12 @@ height: 100%;
   border: none;
   font-size: 18px;
   margin: 0;
+}
+.testimonials{
+  height: 390px;
+}
+.testimonials ul{
+  height: 85%;
 }
 
 .testimonials ul li {

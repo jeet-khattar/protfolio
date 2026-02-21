@@ -5,8 +5,9 @@ const Contactme = () => {
     <div className="inner-contact">
       <h1>Contact me</h1>
       <ul>
-        <li>Let's work together — To get started, have a 1:1 chat with me!</li>
-        <button type="button">Email me</button>
+        <a href="mailto:jeetkhattar22@gmail.com">
+          <button type="button">Email me</button>
+        </a>
       </ul>
     </div>
   );
