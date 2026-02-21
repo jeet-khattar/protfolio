@@ -9,9 +9,9 @@ const Social = () => {
           <i class="ri-linkedin-fill icon"></i>
         </div>
       </a>
-      <a href="https://x.com/com_khattar">
-        <div className="twitter">
-          <i class="ri-twitter-x-line icon"></i>
+      <a href="https://github.com/">
+        <div className="github">
+          <i class="ri-github-fill icon"></i>
         </div>
       </a>
     </div>

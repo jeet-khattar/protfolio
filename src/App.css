@@ -312,7 +312,7 @@ html{
    margin-right: 10px;
   color: var(--btn-bgc);
  }
- .inner-social a .twitter .icon{
+ .inner-social a .github .icon{
   font-size: 50px;
    margin-right: 10px;
   color: var(--btn-bgc);
@@ -343,7 +343,7 @@ html{
     "social";
   }
   .intro{
-    height: 230px;
+    height: 235px;
   }
 .intro h1 {
   color: var(--text-primary);
@@ -430,6 +430,9 @@ html{
 }
 .testimonials{
   height: 340px;
+}
+.testimonials ul{
+  height: 85%;
 }
 .testimonials ul li {
   font-size: 16px;
