@@ -4,17 +4,13 @@ import {ChevronDown} from 'lucide-react'
 const Testimonials = () => {
   return (
     <div className="inner-testimonals">
-      <h1>Testimonials</h1>
+      <h1>My Development Process</h1>
       <ul>
-        <li>
-          Jeet delivers clean UI with attention to detail. His layouts are
-          structured and easy to understand.
-        </li>
-        <li>-Ammy Patel (Ceo, Startup)</li>
-        <button type="button">
-          <ChevronDown className="icon" />
-          Read More Reviews
-        </button>
+        <li>Plan Layout — Structure UI using Grid & Flexbox</li>
+        <li>Build Components — React reusable components</li>
+        <li>Style Responsively — Mobile-first approach</li>
+        <li> Add Interaction — Smooth UI animations</li>
+        <li>Test & Optimize — Performance and spacing check</li>
       </ul>
     </div>
   );

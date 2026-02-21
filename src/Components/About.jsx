@@ -7,18 +7,18 @@ const About = () => {
       <h1>About Me</h1>
       <ul>
         <li>
-          <GraduationCap className="icon" />
+          <GraduationCap className="icon me-1" />
           Computer engineering Diploma
         </li>
         <li>
-          <LaptopMinimalCheck className="icon" />
-          Freelancer for 1.5 years
+          <LaptopMinimalCheck className="icon me-1" />
+          Frontend Development Course
         </li>
         <li>
-          <Briefcase className="icon" />
-          Past works with startups & e-commerce
+          <Briefcase className="icon me-1" />
+          Build Real Projects
         </li>
-        <button type="button">View Resume</button>
+        {/* <button type="button">View Resume</button> */}
       </ul>
     </div>
   );

@@ -4,20 +4,12 @@ import {LayoutTemplate, FingerprintPattern, Gauge} from 'lucide-react'
 const Services = () => {
   return (
     <div className="inner-services">
-      <h1>Service I Offer</h1>
+      <h1>Frontend Skills</h1>
       <ul>
-        <li>
-          <LayoutTemplate className="icon" />
-          Frontend UI Implementation
-        </li>
-        <li>
-          <FingerprintPattern className="icon" />
-          Authentication & Firebase Integration
-        </li>
-        <li>
-          <Gauge className="icon" />
-          Website Performance & Clean Code
-        </li>
+        <li>HTML5 (Semantic Structure)</li>
+        <li>CSS3 (Flexbox, Grid, Responsive Design)</li>
+        <li>JavaScript ES6+</li>
+        <li>React.js (Components, Props, Hooks)</li>
       </ul>
     </div>
   );
